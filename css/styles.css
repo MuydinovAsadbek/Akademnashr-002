@@ -1,0 +1,176 @@
+.header {
+    background-color: #fff;
+}
+
+.nav-link {
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.basic-btn {
+    background-color: #FF7500;
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: #fff;
+    font-style: normal;
+    font-family: "Roboto";
+
+}
+
+.info-items {
+    width: 387px;
+}
+
+.book-info {
+    background-color: #252420;
+}
+
+.hero-hr {
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+
+/* MAIN */
+.main-title {
+    width: 339px;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.main-info {
+    width: 387px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+/* FEATURE */
+.feature-title {
+    width: 435px;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 86.4px;
+    letter-spacing: 0.5px;
+    font-size: 72px;
+}
+
+.img-block {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 117, 0, 0.2);
+}
+
+.feature-items {
+    width: 340px;
+}
+
+.feature-items-img {
+    width: 47.12px;
+    height: 47.12px;
+}
+
+.feature-items-title {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.feature-items-paragraph {
+    width: 314px;
+    font-family: "Roboto";
+    color: #000;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+.action {
+    background-color: #252420;
+}
+
+.sale-content-block {
+    width: 440px;
+}
+
+.sale-block-title {
+    width: 373px;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 48px;
+}
+
+.sale-book-paragraph {
+    width: 440px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #F8F8F8;
+}
+
+.networking-list {
+    list-style: none;
+}
+.networking-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-hr {
+    width: 1100px;
+    height: 2px;
+    background-color: #252420;
+}
+
+.footer-links-block {
+    width: 224px;
+    list-style: none;
+}
+
+.footer-links-item {
+    color: #252420;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.75px;
+    
+}
