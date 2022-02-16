@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.logo-link {
+    transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+    opacity: 0.8;
+}
+
 .navigation-menu {
     display: flex;
     align-items: center;
@@ -93,6 +101,9 @@
     width: 100px;
     height: 100px;
     background: rgba(255, 117, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-list {
