@@ -15,6 +15,7 @@
 
 .logo-link {
     transition: opacity 0.4s ease;
+    display: block;
 }
 
 .logo-link:hover {
