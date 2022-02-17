@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -19,12 +20,12 @@
         </a>
         <nav class="navigation-menu">
             <ul class="nav-list">
-                <li><a href="#" class="nav-link">Bosh sahifa</a></li>
-                <li><a href="#" class="nav-link">Kitoblar</a></li>
-                <li><a href="#" class="nav-link">Aksiyalar</a></li>
-                <li><a href="#" class="nav-link">Kontaktlar</a></li>
-                <!-- Button -->
+                <li class="sitenav-item"><a href="#" class="nav-link">Bosh sahifa</a></li>
+                <li class="sitenav-item"><a href="#" class="nav-link">Kitoblar</a></li>
+                <li class="sitenav-item"><a href="#" class="nav-link">Aksiyalar</a></li>
+                <li class="sitenav-item"><a href="#" class="nav-link">Kontaktlar</a></li>
             </ul>
+            <!-- Button -->
             <a class="basic-btn" href="#">Ro’yxatdan o’tish</a>
         </nav>
     </header>
@@ -34,7 +35,7 @@
         <!-- INFORMATION -->
         <section class="book-info">
             <div class="info-items">
-                <hr class="hero-hr">    
+                <hr class="hero-hr sitenav-hr">    
                 <h1 class="main-title">Pythonda dasturlash asoslari</h1>
                 <p class="main-info">
                     Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.
@@ -48,7 +49,7 @@
         
         <!-- FEATURES -->
         <section class="features">
-            <hr class="hero-hr">
+            <hr class="hero-hr features-hr">
             <h2 class="feature-title">Nega aynan Akademnashr?</h2>
             <div class="feature-list">
                 <div class="feature-items">
@@ -82,12 +83,14 @@
                     <h4 class="sale-block-title">
                         Bolalar kitoblari uchun ajoyib aksiya!
                     </h4>
-                    <p class="sale-book-paragraph">
-                        Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.
-                    </p>
-                    <p class="sale-book-paragraph">
-                        Aksiyadagi eng katta to’plamda <span class="sale-book-orange">50 ta kitob</span>ni <span class="sale-book-orange">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
-                    </p>
+                    <div class="sale-book-wrapper">
+                        <p class="sale-book-paragraph">
+                            Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.
+                        </p>
+                        <p class="sale-book-paragraph">
+                            Aksiyadagi eng katta to’plamda <span class="sale-book-orange">50 ta kitob</span>ni <span class="sale-book-orange">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
+                        </p>
+                    </div>
                     <a href="#" class="basic-btn">Buyurtma berish</a>
                 </div>
             </div>
