@@ -8,6 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 5px solid #FF7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .logo-link {
@@ -31,6 +34,7 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
+    padding: 0;
 }
 
 .nav-link {
@@ -57,6 +61,7 @@
 }
 
 .basic-btn {
+    display: inline-block;
     background-color: #FF7500;
     font-size: 13px;
     line-height: 15.23px;
@@ -65,8 +70,10 @@
     color: #fff;
     font-style: normal;
     font-family: "Roboto";
-    transition: opacity 0.4s ease; 
-
+    transition: opacity 0.4s ease;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 .basic-btn:hover {
@@ -85,12 +92,18 @@
     background-color: #252420;
     display: flex;
     justify-content: space-between;
+    padding-top: 80px;
+}
+
+.info-img {
+    border-radius: 8px;
 }
 
 .hero-hr {
     width: 80px;
     height: 3px;
     background-color: #FF7500;
+    border: none;
 }
 
 /* MAIN */
@@ -116,6 +129,10 @@
 }
 
 /* FEATURE */
+.features {
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
 .feature-title {
     width: 435px;
     font-family: "Roboto Condensed";
@@ -133,6 +150,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 
 .feature-list {
@@ -145,8 +163,8 @@
 }
 
 .feature-items-img {
-    width: 47.12px;
-    height: 47.12px;
+    width: 46px;
+    height: 46px;
 }
 
 .feature-items-title {
@@ -171,6 +189,9 @@
     background-color: #252420;
     display: flex;
     justify-content: space-between;
+    /* padding-top: 120px;
+    padding-bottom: 160px; */
+    border-radius: 12px;
 }
 
 .sale-content-block {
@@ -203,9 +224,15 @@
     color: #FF7500;
 }
 
+.sale-img-block {
+    border-radius: 12px;
+}
+
 /* FOOTER */
 .footer {
     background-color: #F8F8F8;
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 
 .footer-icon {
@@ -219,6 +246,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 .networking-icon {
     width: 24px;
@@ -251,6 +279,7 @@
 .footer-links-block {
     width: 224px;
     list-style: none;
+    padding: 0;
 }
 
 .footer-links-item {
