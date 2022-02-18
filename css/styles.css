@@ -61,7 +61,6 @@ body {
 .nav-list {
     list-style: none;
     display: flex;
-    justify-content: space-around;
     padding: 0;
     margin: 0;
     margin-right: 32px;
@@ -81,7 +80,6 @@ body {
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "Roboto";
     font-weight: 500;
     font-style: normal;
     transition: 
@@ -106,7 +104,6 @@ body {
     font-weight: 700;
     color: #fff;
     font-style: normal;
-    font-family: "Roboto";
     transition: opacity 0.4s ease;
     padding: 12px 24px;
     border-radius: 4px;
@@ -132,6 +129,7 @@ body {
 
 .book-info {
     background-color: #252420;
+    color: #fff;
 }
 
 .book-info-container {
@@ -161,7 +159,6 @@ body {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0.5px;
-    color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -171,11 +168,9 @@ body {
 
 .main-info {
     width: 387px;
-    font-family: "Roboto";
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
-    color: #fff;
     margin-top: 0;
     margin-bottom: 32px;
 }
@@ -241,7 +236,6 @@ body {
 
 .feature-items-paragraph {
     width: 314px;
-    font-family: "Roboto";
     color: #000;
     font-style: normal;
     line-height: 24px;
@@ -283,7 +277,6 @@ body {
 
 .sale-book-paragraph {
     width: 440px;
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
@@ -404,7 +397,6 @@ body {
 .footer-links-item {
     color: #252420;
     text-decoration: none;
-    font-family: "Roboto";
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
