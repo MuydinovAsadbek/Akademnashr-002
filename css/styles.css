@@ -132,10 +132,11 @@ body {
 
 .book-info {
     background-color: #252420;
-    padding-top: 80px;
 }
 
 .book-info-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
     display: flex;
     justify-content: space-between;
 }
