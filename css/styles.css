@@ -134,7 +134,7 @@ body {
 
 .book-info-container {
     padding-top: 64px;
-    padding-bottom: 64px;
+    /* padding-bottom: 64px; */
     display: flex;
     justify-content: space-between;
 }
@@ -143,6 +143,7 @@ body {
     border-radius: 8px;
     width: 510px;
     height: 510px;
+    margin-bottom: -62px;
     box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
 }
 
@@ -253,16 +254,17 @@ body {
 .action-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     border-radius: 12px;
     background-color: #252420;
-    padding: 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
 
 }
 
 .sale-content-block {
     width: 440px;
-    /* margin-top: 64px; */
+    margin-top: 64px;
 }
 
 .sale-block-title {
@@ -306,12 +308,13 @@ body {
     border-radius: 12px;
     width: 440px;
     height: 440px;
+    margin-top: -85px;
 }
 
 /* FOOTER */
 .footer {
     background-color: #F8F8F8;
-    padding-top: 56px;
+    /* padding-top: 56px; */
     padding-bottom: 56px;
 }
 
