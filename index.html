@@ -14,19 +14,17 @@
 <body>
     <!-- HEADER -->
     <header class="site-header">
-        <div class="container site-header-container">
-            <a href="index.html">
-                <!-- Akademnashr Logosi -->
-                <img class="logo-link" src="./img/logo.svg" alt="Akademnashr Logo" width="227" height="59">
+        <div class="container site-header__container">
+            <a class="logo-link" href="index.html">
+                <img class="logo-link__img" src="./img/logo.svg" alt="Akademnashr Logo" width="227" height="59">
             </a>
-            <nav class="navigation-menu">
-                <ul class="nav-list">
-                    <li class="sitenav-item"><a href="#" class="nav-link">Bosh sahifa</a></li>
-                    <li class="sitenav-item"><a href="#" class="nav-link">Kitoblar</a></li>
-                    <li class="sitenav-item"><a href="#" class="nav-link">Aksiyalar</a></li>
-                    <li class="sitenav-item"><a href="#" class="nav-link">Kontaktlar</a></li>
+            <nav class="sitenav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item"><a class="sitenav__link sitenav__link--active" href="#">Bosh sahifa</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Kitoblar</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Aksiyalar</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Kontaktlar</a></li>
                 </ul>
-                <!-- Button -->
                 <a class="basic-btn" href="#">Ro’yxatdan o’tish</a>
             </nav>
         </div>
@@ -34,107 +32,101 @@
 
     <!-- MAIN -->
     <main class="hero">
-
         <!-- INFORMATION -->
         <section class="book-info">
-            <div class="container book-info-container">
+            <div class="container book-info__container">
                 <div class="info-items">
-                    <hr class="hero-hr sitenav-hr">    
+                    <hr class="hero-hr info-items__hero-hr">    
                     <h2 class="main-title">Pythonda dasturlash asoslari</h2>
                     <p class="main-info">
                         Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.
                     </p>
-                    <a href="#" class="basic-btn">Buyurtma berish</a>
+                    <a class="basic-btn" href="#">Buyurtma berish</a>
                     <!-- <hr> -->
                 </div>
-                <img class="info-img" src="./img/python-book.jpg" alt="Python Book" width="510" height="510">
+                <img class="book-info__img" src="./img/python-book.jpg" alt="Python Book" width="510" height="510">
             </div>
         </section>
         
         <!-- FEATURES -->
         <section class="features">
-            <div class="container features-container">
-                <hr class="hero-hr features-hr">
-                <h2 class="feature-title">Nega aynan Akademnashr?</h2>
-                <div class="feature-list">
-                    <div class="feature-items">
-                        <div class="img-block">
-                            <img class="feature-items-img" src="./img/Icon-1.png" alt="Icon 1" width="46" height="46">
+            <div class="container">
+                <hr class="hero-hr features__features-hr">
+                <h2 class="feature__title">Nega aynan Akademnashr?</h2>
+                <div class="feature__list">
+                    <div class="feature__items">
+                        <div class="feature__img-block">
+                            <img class="feature__img" src="./img/Icon-1.png" alt="Icon 1" width="46" height="46">
                         </div>
-                        <h3 class="feature-items-title">Oson buyurtma qilish</h3>
-                        <p class="feature-items-paragraph">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
+                        <h3 class="feature__items-title">Oson buyurtma qilish</h3>
+                        <p class="feature-items__paragraph">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
                     </div>
-                    <div class="feature-items">
-                        <div class="img-block">
-                            <img class="feature-items-img" src="./img/Icon-2.png" alt="Icon 2" width="46" height="46">
+                    <div class="feature__items">
+                        <div class="feature__img-block">
+                            <img class="feature__img" src="./img/Icon-2.png" alt="Icon 2" width="46" height="46">
                         </div>
-                        <h3 class="feature-items-title">Eng sara kitoblar</h3>
-                        <p class="feature-items-paragraph">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
+                        <h3 class="feature__items-title">Eng sara kitoblar</h3>
+                        <p class="feature-items__paragraph">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
                     </div>
-                    <div class="feature-items">
-                        <div class="img-block">
-                            <img class="feature-items-img" src="./img/Icon.png" alt="Icon" width="46" height="46">
+                    <div class="feature__items">
+                        <div class="feature__img-block">
+                            <img class="feature__img" src="./img/Icon.png" alt="Icon" width="46" height="46">
                         </div>
-                        <h3 class="feature-items-title">Tez yetkazib berish</h3>
-                        <p class="feature-items-paragraph">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
+                        <h3 class="feature__items-title">Tez yetkazib berish</h3>
+                        <p class="feature-items__paragraph">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- AKSIYA -->
+        <!-- ACTION  -->
         <section class="action">
-            <div class="container action-container">
-                <div class="sale-content-block">
-                    <div class="sale-block-paragraph">
-                        <h2 class="sale-block-title">
+            <div class="container action__container">
+                    <div class="action__info-wrapper">
+                        <h2 class="action__title">
                             Bolalar kitoblari uchun ajoyib aksiya!
                         </h2>
-                        <div class="sale-book-wrapper">
-                            <p class="sale-book-paragraph">
+                        <div class="action__text-wrapper">
+                            <p class="action__text">
                                 Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.
                             </p>
-                            <p class="sale-book-paragraph">
-                                Aksiyadagi eng katta to’plamda <span class="sale-book-orange">50 ta kitob</span>ni <span class="sale-book-orange">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
+                            <p class="action__text">
+                                Aksiyadagi eng katta to’plamda <span class="action__text--orange">50 ta kitob</span>ni <span class="action__text--orange">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
                             </p>
                         </div>
-                        <a href="#" class="basic-btn">Buyurtma berish</a>
+                        <a class="basic-btn" href="#">Buyurtma berish</a>
                     </div>
-                </div>
-                <img class="sale-img-block" src="./img/sale-img.jpg" alt="Sale Img" width="440" height="440">
+                <img class="action__img sale-img-block" src="./img/sale-img.jpg" alt="Sale Img" width="440" height="440">
             </div>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
-
-        <!-- footer icon -->
         <div class="container">
-
-            <div class="footer-icon">
+            <div class="footer__icon">
                 <a class="logo-link" href="index.html">
-                    <img src="./img/logo.svg" alt="AkademNashr Logo" width="227" height="60">
+                    <img class="logo-link__img" src="./img/logo.svg" alt="AkademNashr Logo" width="227" height="60">
                 </a>
                 <div class="networking">
-                    <ul class="networking-list">
-                        <li>
-                            <a class="networking-icon" href="https://t.me/Akademnashr">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ul class="networking__list networking-list">
+                        <li class="networking__item">
+                            <a class="networking__icon" href="https://t.me/Akademnashr">
+                                <svg class="networking__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM17.568 8.16C17.388 10.056 16.608 14.664 16.212 16.788C16.044 17.688 15.708 17.988 15.396 18.024C14.7 18.084 14.172 17.568 13.5 17.124C12.444 16.428 11.844 15.996 10.824 15.324C9.636 14.544 10.404 14.112 11.088 13.416C11.268 13.236 14.34 10.44 14.4 10.188C14.412 10.152 14.412 10.044 14.34 9.972C14.268 9.912 14.172 9.936 14.088 9.948C13.98 9.972 12.3 11.088 9.024 13.296C8.544 13.62 8.112 13.788 7.728 13.776C7.296 13.764 6.48 13.536 5.868 13.332C5.112 13.092 4.524 12.96 4.572 12.54C4.596 12.324 4.896 12.108 5.46 11.88C8.964 10.356 11.292 9.348 12.456 8.868C15.792 7.476 16.476 7.236 16.932 7.236C17.028 7.236 17.256 7.26 17.4 7.38C17.52 7.476 17.556 7.608 17.568 7.704C17.556 7.776 17.58 7.992 17.568 8.16Z" fill="currentColor"/>
                                 </svg>
                             </a>
                         </li>
-                        <li>
-                            <a class="networking-icon" href="https://www.facebook.com/Akademnashr">
-                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <li class="networking__item">
+                            <a class="networking__icon" href="https://www.facebook.com/Akademnashr">
+                                <svg class="networking__svg" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0Z" fill="currentColor"/>
                                 </svg>
                             </a>
                         </li>
-                        <li>
-                            <a class="networking-icon" href="https://www.instagram.com/akademnashr/">
-                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <li class="networking__item">
+                            <a class="networking__icon" href="https://www.instagram.com/akademnashr/">
+                                <svg class="networking__svg" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0Zm0 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069ZM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm4.965-10.405a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001Z" fill="currentColor"/>
                                 </svg>
                             </a>
@@ -147,32 +139,32 @@
 
         <!-- footer links -->
         <div class="container">
-            <div class="footer-links">
-                <ul class="footer-links-block">
-                    <li><a class="footer-links-item" href="#">Bosh sahifa</a></li>
-                    <li><a class="footer-links-item" href="#">Kitoblar</a></li>
-                    <li><a class="footer-links-item" href="#">Aksiyalar</a></li>
-                    <li><a class="footer-links-item" href="#">Yangiliklar</a></li>
-                    <li><a class="footer-links-item" href="#">Kontaktlar</a></li>
+            <div class="footer__links">
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__links" href="#">Bosh sahifa</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Kitoblar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Aksiyalar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Yangiliklar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Kontaktlar</a></li>
                 </ul>
-                <ul class="footer-links-block">
-                    <li><a class="footer-links-item" href="#">Ilmiy nashrlar</a></li>
-                    <li><a class="footer-links-item" href="#">Ilmiy-ommabop nashrlar</a></li>
-                    <li><a class="footer-links-item" href="#">Ma’rifiy nashrlar</a></li>
-                    <li><a class="footer-links-item" href="#">Lug’atlar</a></li>
-                    <li><a class="footer-links-item" href="#">Adabiy-badiiy nashrlar</a></li>
-                    <li><a class="footer-links-item" href="#">Abituriyentlar uchun</a></li>
-                    <li><a class="footer-links-item" href="#">Bolalar uchun</a></li>
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__links" href="#">Ilmiy nashrlar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Ilmiy-ommabop nashrlar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Ma’rifiy nashrlar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Lug’atlar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Adabiy-badiiy nashrlar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Abituriyentlar uchun</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Bolalar uchun</a></li>
                 </ul>
-                <ul class="footer-links-block">
-                    <li><a class="footer-links-item" href="#">Ko’p so’raladigan savollar</a></li>
-                    <li><a class="footer-links-item" href="#">Yetkazib berish haqida</a></li>
-                    <li><a class="footer-links-item" href="#">To’lov usullari haqida</a></li>
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__links" href="#">Ko’p so’raladigan savollar</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Yetkazib berish haqida</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">To’lov usullari haqida</a></li>
                 </ul>
-                <ul class="footer-links-block">
-                    <li><a class="footer-links-item" href="#">Bo’sh ish o’rinlari</a></li>
-                    <li><a class="footer-links-item" href="#">Biz bilan bog’lanish</a></li>
-                    <li><a class="footer-links-item" href="#">Maxfiylik nizomi</a></li>
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__links" href="#">Bo’sh ish o’rinlari</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Biz bilan bog’lanish</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#">Maxfiylik nizomi</a></li>
                 </ul>
             </div>
 
