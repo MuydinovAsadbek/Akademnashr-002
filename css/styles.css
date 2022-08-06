@@ -84,7 +84,7 @@ img {
 }
 
 .logo-link {
-    margin-right: 10px;
+    margin-right: 50px;
     transition: opacity 0.4s ease;
     display: block;
 }
@@ -149,11 +149,21 @@ img {
     border-bottom: 3px solid #FF7500;
 }
 
+.site-header__btn {
+    margin-left: auto;
+}
+
+/* SITE-HEADER__TOGGLER */
+.site-header__toggler {
+    display: none;
+}
+
 
 /* HERO */
 .info-items {
-    width: 387px;
+    max-width: 387px;
     padding-top: 40px;
+    margin-right: 20px;
 }
 
 .info-items__hero-hr {
@@ -181,6 +191,7 @@ img {
     width: 510px;
     height: 510px;
     left: 590px;
+    left: calc(50% + 20px);
     box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
 }
 
@@ -192,7 +203,7 @@ img {
 }
 
 .main-title {
-    width: 339px;
+    max-width: 339px;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0.5px;
@@ -204,7 +215,7 @@ img {
 }
 
 .main-info {
-    width: 387px;
+    max-width: 387px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
@@ -450,4 +461,84 @@ img {
 
 .footer__links:active {
     opacity: 0.6;  
+}
+
+/* RESPONSIVENES */
+
+@media only screen and (max-width: 960px) {
+    .sitenav__item {
+        margin-right: 16px;
+    }
+    
+    .sitenav__link {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+    .site-header__container {
+        position: relative;
+    }
+
+    .logo-link {
+        margin-right: 20px;
+    }
+
+    .site-header__btn {
+        padding: 12px 16px;
+    }
+
+    .sitenav {
+        display: none;
+    }
+
+    .site-header__toggler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #FF7500;
+        border-radius: 5px;
+        background-color: transparent;
+        margin-left: 20px;
+        flex-shrink: 0;
+    }
+
+    .sitenav--open {
+        display: flex;
+        position: absolute;
+        background-color: #fff;
+        z-index: 999;
+        padding-right: 50px;
+        top: 100%;
+        width: 100%;
+    }
+
+    .sitenav__list {
+        flex-direction: column;
+        width: 100%;
+        text-align: right;
+        margin: 0;
+    }
+
+    .sitenav__item {
+        width: 100%;
+    }
+
+    .sitenav__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .site-header__btn {
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+    }
 }
