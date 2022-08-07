@@ -354,7 +354,8 @@ img {
     width: 440px;
     height: 440px;
     position: absolute;
-    left: 596px;
+    /* left: 596px; */
+    left: calc(50% + 37px);
     top: -85px;
 }
 
@@ -738,5 +739,113 @@ img {
     .feature-items__paragraph {
         text-align: center;
         line-height: 22px;
+    }
+}
+
+
+/* ACTION RESPONSIVENES */
+@media only screen and (max-width: 1200px) {
+    .action__img {
+        width: 400px;
+        height: 400px;
+        top: -60px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .action__img {
+        width: 380px;
+        height: 380px;
+        left: calc(50% + 50px);
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .action__img {
+        width: 340px;
+        height: 340px;
+        top: -45px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .action__container {
+        display: block;
+    }
+    
+    .action__img {
+        position: static;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .action__info-wrapper {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .action__title {
+        font-size: 36px;
+    }
+
+    .action__img {
+        max-width: 300px;
+        max-height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .action {
+        padding: 56px;
+    }
+
+    .action__container {
+        padding: 56px;
+    }
+
+    .action__title {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .action__text {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .action {
+        padding: 40px;
+    }
+
+    .action__container {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .action {
+        padding: 30px;
+    }
+
+    .action__container {
+        padding: 30px;
+    }
+
+    .action__title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .action__text {
+        font-size: 14px;
+        line-height: 20px;
     }
 }
