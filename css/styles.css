@@ -256,6 +256,8 @@ img {
 
 .feature__list {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .feature__items {
@@ -600,14 +602,25 @@ img {
     }
 }
 
+@media only screen and (max-width: 410px) {
+    .main-title {
+        font-size: 36px;
+        line-height: 32px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .main-title {
+        font-size: 32px;
+    }
+}
+
 @media only screen and (max-width: 380px) {
     .info-items {
         padding-top: 20px;
     }
 
     .main-title {
-        font-size: 32px;
-        line-height: 32px;
         margin-bottom: 24px;
     }
 
@@ -618,3 +631,112 @@ img {
     }
 }
 
+/* FEATURE RESPONSIVENES */
+@media only screen and (max-width: 1140px) {
+    .feature__title {
+        font-size: 64px;
+        line-height: 72px;
+    }
+
+    .feature__items:not(:last-child) {
+        margin-right: 24px;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .features {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .feature__title {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .feature__list {
+        margin-bottom: -24px;
+    }
+    
+    .feature__items {
+        margin-bottom: 24px;
+    }
+
+    .feature__items:not(:last-child) {
+        margin-right: 24px;
+    }
+
+    .feature__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .feature__item-title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .features {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .feature__title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .feature__items:nth-child(2) {
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+    .feature__items:nth-child(2) {
+        margin-right: 24px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .features__features-hr {
+        display: none;
+    }
+
+    .feature__title {
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .feature__list {
+        justify-content: center;
+    }
+
+    .feature__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .feature__items:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .feature__items-title {
+        margin-top: 16px;
+        margin-bottom: 8px;
+
+    }
+
+    .feature-items__paragraph {
+        text-align: center;
+        line-height: 22px;
+    }
+}
