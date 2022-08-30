@@ -866,14 +866,14 @@ img {
 
 @media only screen and (max-width: 935px) {
     .footer__list:not(:nth-child(4)) {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 }
 
 @media only screen and (max-width: 711px) {
     .footer__list:not(:nth-child(4)),
     .footer__list:not(:nth-child(3)) {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 }
 
@@ -896,5 +896,11 @@ img {
 @media only screen and (max-width: 410px) {
     .footer__logo-link {
         margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .footer__logo-link {
+        margin-right: 0;
     }
 }
